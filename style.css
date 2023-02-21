@@ -1,0 +1,180 @@
+/*             start-navbar                                            */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+    background-color: black;
+    height: 70px;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: whitesmoke;
+    list-style-type: none;
+}
+nav ul li
+{
+    padding: 0px 13px;
+}
+
+.logo img
+{
+    height: 50px;
+    width: 50px;
+    padding: 0px 10px; 
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+/*          end-navigationbar                            */
+
+
+
+/*          start-song-container                            */
+
+.container
+{
+    min-height: 662px;
+    margin: 0px auto;
+    width: auto;
+    border-radius: 0px;
+    padding: 10px;
+    background-image: linear-gradient(whitesmoke,black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.song
+{
+    margin-top: 20px;
+    align-items: center;
+    /* display: flex; */
+    height: 245px;
+    width: 200px;
+    justify-content: space-around;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.605);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0px 10px;
+    box-shadow: 9px 12px 26px -2px black;
+}
+
+.coverimg img
+{
+    height: 161px;
+    width: 199px;
+    border-radius: 10px;
+}
+
+.songname
+{
+    height: 44px;
+    width: 199px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+.time
+{
+    height: 21px;
+    width: 43px;
+    margin-top: 7px;
+    padding: 0px;
+}
+
+.playbtn img
+{
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.playbtn
+{
+    height: 29px;
+    width: 29px;
+    margin-left: 169px;
+    margin-top: -27px;
+    padding: 0px;
+}
+
+/*          end-song-container                           */
+
+/*          start-bottom-bar                            */
+
+.bottom
+{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+#myprogressbar
+{
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.main-controls button img 
+{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 20px;
+    background: whitesmoke;
+}
+
+.main-controls button
+{
+    background: black;
+}
+
+.txt
+{
+    position: fixed;
+    left: 138px;
+    bottom: 59px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.songinfo img 
+{
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    left: -23px;
+    bottom: -2px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+/*          end-bottom-bar                           
